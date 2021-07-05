@@ -66,6 +66,7 @@ function App() {
       <CreateUser />
       <UserList users={users} />
       <div>활성 사용자 수 : {count}</div>
+      {'xx'}
     </UserDispatch.Provider>
   );
 }
